@@ -80,58 +80,57 @@ export default function AboutCTASection() {
           </div>
         </div>
 
-        {/* Final CTA block */}
-        <div
-          className="reveal relative rounded-4xl border border-border-light overflow-hidden p-10 md:p-16 text-center"
-          style={{
-            background:
-              'linear-gradient(135deg, rgba(200,241,53,0.06) 0%, rgba(255,255,255,0.02) 50%, rgba(200,241,53,0.04) 100%)',
-          }}
-        >
-          {/* Decorative corner accent */}
-          <div
-            className="absolute top-0 right-0 w-64 h-64 pointer-events-none"
-            aria-hidden="true"
-            style={{
-              background: 'radial-gradient(circle at top right, rgba(200,241,53,0.1) 0%, transparent 60%)',
-            }}
-          />
+{/* Final CTA block */}
+<div
+  className="reveal relative rounded-4xl border border-border-light overflow-hidden p-10 md:p-16 text-center"
+  style={{
+    background:
+      'linear-gradient(135deg, rgba(200,241,53,0.06) 0%, rgba(255,255,255,0.02) 50%, rgba(200,241,53,0.04) 100%)',
+  }}
+>
+  <div
+    className="absolute top-0 right-0 w-64 h-64 pointer-events-none"
+    aria-hidden="true"
+    style={{
+      background: 'radial-gradient(circle at top right, rgba(200,241,53,0.1) 0%, transparent 60%)',
+    }}
+  />
 
-          <h2
-            className="reveal reveal-delay-1 font-display font-extrabold text-foreground mb-4 relative z-10"
-            style={{ fontSize: 'clamp(2rem, 5vw, 4rem)', lineHeight: '1.06', letterSpacing: '-0.03em' }}
-          >
-            Klaar om dingen slimmer geregeld te krijgen?
-          </h2>
-          <p className="reveal reveal-delay-2 font-body text-muted-light text-lg mb-10 max-w-md mx-auto relative z-10">
-            Plan een gratis gesprek. Geen verplichtingen. Gewoon samen kijken wat handig is.
-          </p>
+  <h2
+    className="reveal reveal-delay-1 font-display font-extrabold text-foreground mb-4 relative z-10"
+    style={{ fontSize: 'clamp(2rem, 5vw, 4rem)', lineHeight: '1.06', letterSpacing: '-0.03em' }}
+  >
+    Vertel waar je tegenaan loopt.
+  </h2>
 
-          <div className="reveal reveal-delay-3 flex flex-col items-center gap-4 relative z-10">
-            <a
-              href="https://calendly.com/helpautomatisering/30min"
-              className="btn-accent inline-flex items-center justify-center gap-2 bg-accent text-bg font-display font-bold px-10 py-5 rounded-full text-base hover:bg-accent-hover transition-all duration-300"
-            >
-              Plan een gratis gesprek
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M7 17 17 7M17 7H7M17 7v10" />
-              </svg>
-            </a>
-            <a
-              href="https://calendly.com/helpautomatisering/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-body text-muted-light text-sm hover:text-accent transition-colors duration-200"
-            >
-              Of vul direct de quick scan in →
-            </a>
-          </div>
+  <p className="reveal reveal-delay-2 font-body text-muted-light text-lg mb-10 max-w-md mx-auto relative z-10">
+    Of het nu gaat om overzicht, automatisering, een klus, beheer of iets dat blijft liggen — we kijken samen wat handig is.
+  </p>
 
-          <p className="reveal reveal-delay-4 mt-6 font-body text-muted text-sm relative z-10">
-            Geen verplichtingen. Geen verkoopgesprek.
-          </p>
-        </div>
-      </div>
+  <div className="reveal reveal-delay-3 flex flex-col md:flex-row items-center justify-center gap-4 relative z-10">
+    <a
+      href="HIER-JOUW-TALLY-LINK-AUTOMATISERING"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn-accent inline-flex items-center justify-center gap-2 bg-accent text-bg font-display font-bold px-8 py-4 rounded-full text-base hover:bg-accent-hover transition-all duration-300"
+    >
+      Start quick scan
+    </a>
+
+    <a
+      href="HIER-JOUW-TALLY-LINK-REALISATIE-BEHEER"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center justify-center gap-2 bg-white text-black font-display font-bold px-8 py-4 rounded-full text-base hover:bg-neutral-200 transition-all duration-300"
+    >
+      Vertel wat er speelt
+    </a>
+  </div>
+
+  <p className="reveal reveal-delay-4 mt-6 font-body text-muted text-sm relative z-10">
+    Laagdrempelig kennismaken. Gewoon kijken wat helpt.
+  </p>
+</div>
     </section>
   );
 }
