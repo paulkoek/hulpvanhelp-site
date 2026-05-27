@@ -20,8 +20,8 @@ const serviceBlocks = [
     ),
   },
   {
-    tag: 'HELP Klussen & Realisatie',
-    subtitle: 'Een klus, verbouwing of project? Ik help het regelen én uitvoeren.',
+    tag: 'HELP Realisatie & Beheer',
+    subtitle: 'Een klus, verbouwing, project of beheer? Ik help het regelen én uitvoeren.',
     highlight: 'Afspraken nakomen. Net werk leveren. Zo moeilijk hoeft het niet te zijn.',
     text: 'Van kleine klussen tot complete projecten. Ik help met regelen, coördineren en uitvoeren. Praktisch, duidelijk en met aandacht voor kwaliteit.',
     bullets: [
