@@ -88,50 +88,88 @@ export default function AboutCTASection() {
       'linear-gradient(135deg, rgba(200,241,53,0.06) 0%, rgba(255,255,255,0.02) 50%, rgba(200,241,53,0.04) 100%)',
   }}
 >
+  {/* Decorative glow */}
   <div
     className="absolute top-0 right-0 w-64 h-64 pointer-events-none"
     aria-hidden="true"
     style={{
-      background: 'radial-gradient(circle at top right, rgba(200,241,53,0.1) 0%, transparent 60%)',
+      background:
+        'radial-gradient(circle at top right, rgba(200,241,53,0.1) 0%, transparent 60%)',
     }}
   />
 
   <h2
     className="reveal reveal-delay-1 font-display font-extrabold text-foreground mb-4 relative z-10"
-    style={{ fontSize: 'clamp(2rem, 5vw, 4rem)', lineHeight: '1.06', letterSpacing: '-0.03em' }}
+    style={{
+      fontSize: 'clamp(2rem, 5vw, 4rem)',
+      lineHeight: '1.06',
+      letterSpacing: '-0.03em',
+    }}
   >
     Vertel waar je tegenaan loopt.
   </h2>
 
-  <p className="reveal reveal-delay-2 font-body text-muted-light text-lg mb-10 max-w-md mx-auto relative z-10">
+  <p className="reveal reveal-delay-2 font-body text-muted-light text-lg mb-10 max-w-2xl mx-auto relative z-10">
     Of het nu gaat om overzicht, automatisering, een klus, beheer of iets dat blijft liggen — we kijken samen wat handig is.
   </p>
 
-  <div className="reveal reveal-delay-3 flex flex-col md:flex-row items-center justify-center gap-4 relative z-10">
-    <a
-      href="https://tally.so/r/44jeqX"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="btn-accent inline-flex items-center justify-center gap-2 bg-accent text-bg font-display font-bold px-8 py-4 rounded-full text-base hover:bg-accent-hover transition-all duration-300"
-    >
-      Start quick scan
-    </a>
+  <div className="reveal reveal-delay-3 grid gap-4 md:grid-cols-2 max-w-4xl mx-auto relative z-10">
 
-    <a
-      href="https://tally.so/r/eqYbex"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-flex items-center justify-center gap-2 bg-white text-black font-display font-bold px-8 py-4 rounded-full text-base hover:bg-neutral-200 transition-all duration-300"
-    >
-      Vertel wat er speelt
-    </a>
+    {/* Automatisering */}
+    <div className="rounded-3xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 text-left">
+      <h3 className="font-display text-2xl text-white mb-2">
+        Minder handmatig werk
+      </h3>
+
+      <p className="font-body text-sm text-muted-light mb-2">
+        Voor processen, mail, planning en handmatig werk.
+      </p>
+
+      <p className="font-body text-sm text-muted-light mb-6">
+        Meer overzicht en minder losse eindjes.
+      </p>
+
+      <a
+        href="https://tally.so/r/44jeqX"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn-accent inline-flex items-center justify-center gap-2 bg-accent text-bg font-display font-bold px-6 py-3 rounded-full text-sm hover:bg-accent-hover transition-all duration-300"
+      >
+        Quick scan automatisering
+      </a>
+    </div>
+
+    {/* Realisatie & Beheer */}
+    <div className="rounded-3xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 text-left">
+      <h3 className="font-display text-2xl text-white mb-2">
+        Klussen, projecten & beheer
+      </h3>
+
+      <p className="font-body text-sm text-muted-light mb-2">
+        Voor klussen, onderhoud, opvolging en beheer.
+      </p>
+
+      <p className="font-body text-sm text-muted-light mb-6">
+        Van uitvoering tot opvolging en onderhoud.
+      </p>
+
+      <a
+        href="https://tally.so/r/eqYbex"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center justify-center gap-2 bg-white text-black font-display font-bold px-6 py-3 rounded-full text-sm hover:bg-neutral-200 transition-all duration-300"
+      >
+        Situatie doorgeven
+      </a>
+    </div>
   </div>
 
-  <p className="reveal reveal-delay-4 mt-6 font-body text-muted text-sm relative z-10">
+  <p className="reveal reveal-delay-4 mt-8 font-body text-muted text-sm relative z-10">
     Laagdrempelig kennismaken. Gewoon kijken wat helpt.
   </p>
 </div>
-</div>
-      </section>
+
+      </div>
+    </section>
   );
 }
