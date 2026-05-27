@@ -78,25 +78,49 @@ export default function HeroSection() {
         </p>
 
         {/* CTAs */}
-        <div className="animate-enter delay-400 flex flex-col items-start gap-4">
-          <a
-            href="#contact"
-            className="btn-accent inline-flex items-center justify-center gap-2 bg-accent text-bg font-display font-bold px-8 py-4 rounded-full text-base hover:bg-accent-hover transition-all duration-300"
-          >
-            Plan een gratis gesprek
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M7 17 17 7M17 7H7M17 7v10" />
-            </svg>
-          </a>
-          <a
-            href="https://calendly.com/helpautomatisering/30min"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-body text-muted-light text-sm hover:text-accent transition-colors duration-200"
-          >
-            Of vul direct de quick scan in →
-          </a>
-        </div>
+<div className="animate-enter delay-400 grid gap-4 md:grid-cols-2 w-full max-w-2xl">
+
+  {/* Automatisering */}
+  <div className="rounded-3xl border border-white/10 bg-white/5 backdrop-blur-sm p-6">
+    <h3 className="font-display text-xl text-white mb-2">
+      Minder handmatig werk
+    </h3>
+
+    <p className="font-body text-sm text-muted-light mb-5">
+      Meer overzicht en minder losse eindjes.
+    </p>
+
+    <a
+      href="HIER-JOUW-TALLY-LINK"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn-accent inline-flex items-center justify-center gap-2 bg-accent text-bg font-display font-bold px-6 py-3 rounded-full text-sm hover:bg-accent-hover transition-all duration-300"
+    >
+      Start quick scan
+    </a>
+  </div>
+
+  {/* Realisatie & Beheer */}
+  <div className="rounded-3xl border border-white/10 bg-white/5 backdrop-blur-sm p-6">
+    <h3 className="font-display text-xl text-white mb-2">
+      Klussen, projecten & beheer
+    </h3>
+
+    <p className="font-body text-sm text-muted-light mb-5">
+      Van uitvoering tot opvolging en onderhoud.
+    </p>
+
+    <a
+      href="HIER-JOUW-TALLY-LINK"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center justify-center gap-2 bg-white text-black font-display font-bold px-6 py-3 rounded-full text-sm hover:bg-neutral-200 transition-all duration-300"
+    >
+      Vertel wat er speelt
+    </a>
+  </div>
+
+</div>
 
         {/* Bottom trust signal */}
         <p className="animate-enter delay-500 mt-8 text-muted text-sm font-body">
