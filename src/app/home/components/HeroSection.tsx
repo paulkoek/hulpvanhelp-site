@@ -64,7 +64,7 @@ export default function HeroSection() {
             letterSpacing: '-0.03em',
           }}
         >
-          Dingen geregld.
+          Dingen geregeld.
           <br />
           <span className="text-accent">Zonder gedoe.</span>
         </h1>
