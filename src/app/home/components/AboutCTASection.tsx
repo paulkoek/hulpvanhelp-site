@@ -109,7 +109,7 @@ export default function AboutCTASection() {
 
   <div className="reveal reveal-delay-3 flex flex-col md:flex-row items-center justify-center gap-4 relative z-10">
     <a
-      href="HIER-JOUW-TALLY-LINK-AUTOMATISERING"
+      href="https://tally.so/r/44jeqX"
       target="_blank"
       rel="noopener noreferrer"
       className="btn-accent inline-flex items-center justify-center gap-2 bg-accent text-bg font-display font-bold px-8 py-4 rounded-full text-base hover:bg-accent-hover transition-all duration-300"
@@ -118,7 +118,7 @@ export default function AboutCTASection() {
     </a>
 
     <a
-      href="HIER-JOUW-TALLY-LINK-REALISATIE-BEHEER"
+      href="https://tally.so/r/eqYbex"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-flex items-center justify-center gap-2 bg-white text-black font-display font-bold px-8 py-4 rounded-full text-base hover:bg-neutral-200 transition-all duration-300"
@@ -131,6 +131,7 @@ export default function AboutCTASection() {
     Laagdrempelig kennismaken. Gewoon kijken wat helpt.
   </p>
 </div>
-    </section>
+</div>
+      </section>
   );
 }
