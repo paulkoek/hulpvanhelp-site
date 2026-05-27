@@ -64,9 +64,9 @@ export default function HeroSection() {
             letterSpacing: '-0.03em',
           }}
         >
-          Dingen slimmer
+          Dingen geregld.
           <br />
-          <span className="text-accent">geregeld krijgen.</span>
+          <span className="text-accent">Zonder gedoe.</span>
         </h1>
 
         {/* Subheadline */}
@@ -74,7 +74,7 @@ export default function HeroSection() {
           className="animate-enter delay-300 font-body text-muted-light max-w-xl mb-10"
           style={{ fontSize: 'clamp(1.1rem, 2.5vw, 1.35rem)', lineHeight: '1.65' }}
         >
-          Voor ondernemers en particulieren die tijd verliezen aan gedoe, handmatig werk of projecten die blijven liggen.
+          Voor ondernemers en particulieren die werk, projecten of terugkerende zaken uit handen willen geven.
         </p>
 
         {/* CTAs */}
