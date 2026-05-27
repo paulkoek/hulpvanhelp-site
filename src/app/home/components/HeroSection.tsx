@@ -91,7 +91,7 @@ export default function HeroSection() {
     </p>
 
     <a
-      href="HIER-JOUW-TALLY-LINK"
+      href="https://tally.so/r/44jeqX"
       target="_blank"
       rel="noopener noreferrer"
       className="btn-accent inline-flex items-center justify-center gap-2 bg-accent text-bg font-display font-bold px-6 py-3 rounded-full text-sm hover:bg-accent-hover transition-all duration-300"
@@ -111,7 +111,7 @@ export default function HeroSection() {
     </p>
 
     <a
-      href="HIER-JOUW-TALLY-LINK"
+      href="https://tally.so/r/eqYbex"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-flex items-center justify-center gap-2 bg-white text-black font-display font-bold px-6 py-3 rounded-full text-sm hover:bg-neutral-200 transition-all duration-300"
